@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hw-2-11"
+version = "0.1.0"
+description = ""
+authors = ["KetrinDG <degtyareva.ev1@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "home_work_11_web" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.91.0"
+sqlalchemy = "^2.0.3"
+alembic = "^1.9.3"
+psycopg2 = "^2.9.5"
+uvicorn = {extras = ["standard"], version = "^0.22.0"}
+pydantic = {extras = ["email"], version = "^1.10.4"}
+faker = "^17.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

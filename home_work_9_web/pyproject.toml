@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "home-work-9-web"
+version = "0.1.0"
+description = ""
+authors = ["KetrinDG <degtyareva.ev1@gmail.com>"]
+readme = "README.md"
+packages = [{include = "home_work_9_web"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "^2.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

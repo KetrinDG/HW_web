@@ -1,0 +1,10 @@
+certifi==2022.12.7
+charset-normalizer==3.1.0
+docopt==0.6.2
+-e git+https://github.com/KetrinDG/HW_web.git@93e01b7c5bcd54e21a1deafb79dda13a5fc43af5#egg=home_work_4&subdirectory=home_work_4_web
+idna==3.4
+package-name==0.1
+pipreqs==0.4.11
+requests==2.28.2
+urllib3==1.26.15
+yarg==0.1.9

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "home-work-2-web"
+version = "0.1.0"
+description = ""
+authors = ["KetrinDG <degtyareva.ev1@gmail.com>"]
+readme = "README.md"
+packages = [{include = "home_work_2_web"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygame = "^2.3.0"
+prettytable = "^3.6.0"
+prompt-toolkit = "^3.0.38"
+logging = "^0.4.9.6"
+datetime = "^5.1"
+pathlib = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

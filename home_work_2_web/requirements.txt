@@ -1,0 +1,9 @@
+build==0.10.0
+colorama==0.4.6
+packaging==23.0
+prettytable==3.6.0
+prompt-toolkit==3.0.38
+pygame==2.3.0
+pyproject_hooks==1.0.0
+tomli==2.0.1
+wcwidth==0.2.6
